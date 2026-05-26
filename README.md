@@ -5,6 +5,18 @@ Monorepo:
 - `frontend/` — Next.js 14 (App Router), Tailwind, Zustand, socket.io-client.
 - `docker-compose.yml` — MySQL 8, Redis, Adminer.
 
+📚 **[Ver Guía Completa de Deployment](./DEPLOYMENT-GUIDE.md)** - Instrucciones detalladas para desarrollo y producción.
+
+## 🚀 Deployment
+
+Esta aplicación está desplegada en:
+
+- **Frontend**: [Vercel](https://vercel.com) - Hosting de Next.js con deploy automático desde GitHub
+- **Backend API**: [Render](https://render.com) - Servicio web para NestJS con WebSocket support
+- **Base de Datos**: [Aiven](https://aiven.io) - MySQL managed database (1GB free tier)
+
+**Stack de Producción**: Vercel + Render + Aiven = 100% gratis para proyectos pequeños/medianos.
+
 ## Requisitos
 
 - Node.js 20+
