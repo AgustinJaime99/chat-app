@@ -28,6 +28,18 @@ Esta aplicación está desplegada en:
 **Backend**: NestJS, Prisma, Passport JWT, bcrypt, class-validator, Throttler, Helmet, Swagger, Pino.
 **Frontend**: Next.js, React 18, Tailwind, Zustand (estado), TanStack Query (opcional), socket.io-client, lucide-react.
 
+## Arquitectura
+
+<img width="3341" height="7147" alt="Chat App Architecture-2026-05-27-002709" src="https://github.com/user-attachments/assets/4e1affc6-eddc-4401-a2f7-5feaa5b2bf37" />
+
+## Arquitectura DB
+
+<img width="4448" height="3667" alt="Chat App DB relations-2026-05-27-002654" src="https://github.com/user-attachments/assets/eea63a3b-d27e-4032-85f4-bf50c42811b6" />
+
+## Clean Architecture NestJS
+
+<img width="8192" height="5167" alt="Chat Application Backend Clean Architecture-2026-05-27-002638" src="https://github.com/user-attachments/assets/a0b314a7-6926-498b-8282-ebcf4d642c6c" />
+
 ## Arquitectura backend (por feature)
 
 ```
